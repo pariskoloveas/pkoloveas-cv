@@ -12,7 +12,7 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=0.7in, right=0.7in, bottom=0.7in, top=0.7in]{geometry}
+\usepackage[left=0.7in, right=0.7in, bottom=0.5in, top=0.5in]{geometry}
 
 % Set line spacing
 \renewcommand{\baselinestretch}{1.15}
@@ -44,6 +44,8 @@
 \noindent{\Huge{Paris Koloveas}
 \hfill \textit{\footnotesize Updated \today}}
 
+\noindent{\color{gray}{\Large{Data Science Researcher, Data Engineer, Software Engineer}}}
+
 % --- Contact information and other items ---
 \input{sections/header.tex}
 
@@ -71,15 +73,15 @@
 \input{sections/research_experience.tex}
 & \\
 
-% --- Section: Research projects ---
-\input{sections/research_projects.tex}
-& \\
-
-\newpage
 % --- Section: Industry experience ---
 \input{sections/industry_experience.tex}
 & \\
 
+% --- Section: Research projects ---
+\input{sections/research_projects.tex}
+% & \\
+
+\newpage
 % --- Section: Publications ---
 \input{sections/publications.tex}
 & \\
@@ -106,7 +108,7 @@
 
 % --- Section: Languages ---
 \input{sections/languages.tex}
-& \\
+% & \\
 
 % --- Section: Service and outreach ---
 % \input{sections/service_and_outreach.tex}
