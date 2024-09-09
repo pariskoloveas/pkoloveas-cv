@@ -12,7 +12,7 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=0.7in, right=0.7in, bottom=0.7in, top=0.7in]{geometry}
+\usepackage[left=0.5in, right=0.5in, bottom=0.4in, top=0.5in]{geometry}
 
 % Set line spacing
 \renewcommand{\baselinestretch}{1.15}
@@ -44,7 +44,7 @@
 \noindent{\Huge{Paris Koloveas}
 \hfill \textit{\footnotesize Updated \today}}
 
-\noindent{\color{gray}{\Large{Data Science Researcher, ML Engineer, Data Engineer}}}
+\noindent{\color{gray}{\Large{Data Science Researcher, NLP Researcher, ML Engineer, Data Engineer}}}
 
 % --- Contact information and other items ---
 \input{sections/header.tex}
@@ -52,60 +52,79 @@
 % --- Start the two-column table storing the main content ---
 
 % Set spacing between columns
-\setlength{\tabcolsep}{8pt}
+\setlength{\tabcolsep}{6pt}
 
 % Set the width of each column
 \begin{longtable}{p{1.6in}p{5.1in}}
 
 % --- Section: Research interests ---
 \input{sections/research_interests.tex}
-& \\
+& \\ [-5pt]
+
+% --- Section: Summary ---
+\input{sections/summary.tex}
+& \\ 
 
 % --- Section: Education ---
 \input{sections/education.tex}
-& \\
+& \\ 
+
+% \newpage
+% --- Section: Work experience ---
+\input{sections/work_experience.tex}
+& \\ 
 
 % --- Section: Research experience ---
-\input{sections/research_experience.tex}
-& \\
+% \input{sections/research_experience.tex}
+% & \\ 
 
+% \newpage
 % --- Section: Industry experience ---
-\input{sections/industry_experience.tex}
-& \\
+% \input{sections/industry_experience.tex}
+% & \\ 
 
 % --- Section: Research projects ---
 \input{sections/research_projects.tex}
-& \\
+& \\ 
 
 % --- Section: Talks and tutorials ---
-\input{sections/talks_and_tutorials.tex}
-& \\
+% \input{sections/talks_and_tutorials.tex}
+% & \\
 
-% \newpage
-% --- Section: Dissertations ---
-\input{sections/dissertations.tex}
+% --- Section: Certifications ---
+\input{sections/certifications.tex}
 & \\
 
 % --- Section: Publications ---
 \input{sections/publications.tex}
+& \\ 
+
+% \newpage
+% --- Section: Dissertations ---
+% \input{sections/dissertations.tex}
+% & \\ 
+% \newpage
+
+% --- Section: Awards, scholarships, etc. ---
+\input{sections/awards.tex}
 & \\
 
 % --- Section: Technical skills ---
 \input{sections/technical_skills.tex}
-& \\
-& \\
-& \\
-& \\
+& \\ 
+% & \\
+% & \\
+% & \\
+
 % --- Section: Languages ---
 \input{sections/languages.tex}
-& \\
+% & \\
+
+% \input{sections/ai-courses.tex}
+% & \\
 
 % --- Section: Volunteer work ---
 % \input{sections/volunteer_work.tex}
-% & \\
-
-% --- Section: Awards, scholarships, etc. ---
-%\input{sections/awards.tex}
 % & \\
 
 % --- Section: Teaching experience ---
